@@ -1,10 +1,10 @@
-class Disjoint{
+class DisjointSetUnion{
   private:
   vector<int> rank;
   vector<int> parent;
   vector<int> size;
   public:
-  Disjoint(int n){
+  DisjointSetUnion(int n){
     rank.resize(n+1,0);
     parent.resize(n+1,0);
     size.resize(n+1,1);
